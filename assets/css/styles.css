@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4facfe, #0d6cc5);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    background-color: #cec7c7;
+    padding: 20px;
+    border-radius: 25px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.city{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 70px);
+    cursor: pointer;
+    float: right;
+}
+
+.search button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b ;
+    cursor: pointer;
+    float: right;
+}
+
+.img-button{
+    width: 20px;
+}
+
+.medium-box{
+    margin-top: 30px;
+}
+.search-city{
+
+    color: #2d6ee7;
+    font-size: 28;
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+.temp{
+    font-size: 20px;
+    color: #2d6ee7;
+    margin-top: 30px;
+}
+
+.smaller-box{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-prev{
+    color: #2d6ee7;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.moisture{
+    color: #2d6ee7;
+    margin-top: 20px;
+}
+
+.ventoInfo{
+    color: #2d6ee7;
+    margin-top: 20px;
+}
+
+footer {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
